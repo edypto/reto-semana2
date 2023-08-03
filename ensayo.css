@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #c7d9ef;
+    padding: 10px;
+   
+}
+
+.header h1{
+    text-align: right;
+    font-size: 40px;
+    color: black;
+}
+
+.header h1 span {
+    color: red;
+    
+}
+
+.secondary-heading{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.paragraph{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+footer ul{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
