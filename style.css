@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+   
+    display: grid;
+   
+    grid-template-columns:  [ full-start] minmax(8rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(8rem, 1fr) [full-end];
+    
+}
+
+.header{
+    grid-column: full-start/full-end;
+    background-color: #07a1c2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.header-title{
+    letter-spacing: 2px;
+}
+.secondary-heading{
+    letter-spacing: 2px;
+}
+
+.header-picture img{
+
+    height: 100px;
+    width: 100px;
+
+}
+
+.section-grid-container{
+
+    grid-column: center-start/center-end;
+   
+    padding: 50px 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    
+}
+
+.terciary-heading{
+    color: #f1933a;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.personal-data {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.personal-data ul{
+    list-style: none;
+   line-height: 1.5;
+}
+
+.personal-data-1 li {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.oersonal-data-2 li{
+    font-style: i;
+}
+
+.personal-data-2 li a{
+    text-decoration: none;
+    color: black;
+}
+.paragraph{
+    margin-bottom: 20px;
+
+}
+
+.education-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-content strong {
+    display: block;
+}
+
+
+footer ul{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+
